@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  background-color: #fafafa;
+  font-family: Roboto;
+  font-weight: 300;
+  margin-bottom: -1rem;
+}
+
+.in-line {
+  display: inline;
+}
+
+a {
+  color: #54585B;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+}
+
+img.logo {
+  max-height: 70%;
+  min-height: 30%;
+  width: auto;
+}
+
+@media screen and (min-width: 600px){
+  .rwd-break { display: none; }
+}
+
+@media screen and (min-width: 1200px){
+  img.logo { margin-left: 2.5rem; }
+  #footer { padding-left: 2.4rem; }
+}
+
+.tabs {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+}
+
+.tabs > li {
+  float: none;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  flex: 1;
+}
+
+.tabs > li > a {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  overflow: hidden;
+}
+
+.login {
+  margin-bottom: 0;
+}
+
+#doctor-img {
+  margin-bottom: 1.5rem;
+}
+
+#panelRegister p {
+  margin: 0 1rem 1.5rem 1rem;
+}
+
+#panelLogin p {
+  margin: 0 2rem 1.5rem 2rem;
+}
+
+#bottom-header {
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+#bottom-list {
+  margin-left: -1rem;
+}
+
+#bottom-list > li {
+  margin-top: -0.5rem;
+}
+
+li.last {
+  margin-bottom: 1rem;
+}
+
+.read-more {
+  margin: 1rem 0 1rem 0;
+}
+
+.lead {
+  font-weight: 400;
+}
+
+#footer {
+  margin-bottom: 0rem;
+}
+
+#headline {
+  font-size: 1.5rem;
+}
+
+#bottom-list i {
+  color: #1779ba;
+}
+
+#bottom-list i:hover {
+  color: #9DCC7C;
+}
+
+.action input {
+  background-color: #1779ba;
+  color: white;
+}
